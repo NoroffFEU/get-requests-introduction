@@ -7,9 +7,7 @@ async function getCats() {
 
     const response = await fetch(url);
 
-    const results = await response.json();
-
-    const facts = results.all;
+    const facts = await response.json();
 
     resultsContainer.innerHTML = "";
 
