@@ -1,4 +1,4 @@
-const url = "https://noroff.herokuapp.com/v1/cat-facts/facts";
+const url = "https://api.noroff.dev/api/v1/cat-facts";
 
 const resultsContainer = document.querySelector(".results");
 
